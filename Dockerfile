@@ -1,6 +1,6 @@
 FROM ruby:2.3
 
-MAINTAINER LUXNETWORK Engineering <eng@luxnetwork.lu>
+MAINTAINER Jaime Vélez - Ingeniero Télemático.
 
 # Nodejs is needed
 RUN apt-get update -y && apt-get dist-upgrade -y && apt-get install nodejs -y
